@@ -87,7 +87,7 @@ open_developer_account_site() {
 }
 
 id_check() {
-	echo -e "${bold} Do you have a Apple developer account? (Free acounts are sufficient) [y/n]: ${normal}\n"
+	echo -e "${bold} Do you have a Apple developer account? (Free accounts are sufficient) [y/n]: ${normal}\n"
 	read idcheck
 	if [ $idcheck == 'y' -o $idcheck == 'Y' ]; then
 		return 0
